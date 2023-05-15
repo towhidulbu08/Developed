@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+
+}
+
+/* header and navigation css */
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 51px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    border-style: none;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* banner styles */
+.banner {
+    margin: 0px 170px;
+
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.banner-subtitle {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    
+    margin-bottom: 30px;
+}
+
+table {
+    border-spacing: 10px;
+    text-align: center;
+}
+
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead th {
+    color: #757575;
+    font-size:20px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    /* gap:14px; */
+}
+.info-title{
+    color: #757575;
+    font-size:20px;
+}
+.info-description{
+    font-weight: 700px;
+    font-size:20px;
+}
