@@ -217,4 +217,30 @@ thead th {
 .resume-btn{
     text-align:center;
     margin-top:50px;
+    margin-bottom: 100px;
+}
+
+/* contact-style */
+.contact{
+    display:flex;
+    gap:100px;
+    background: #FFF8F3;
+    padding:130px 200px;
+}
+.contact .section-title{
+    text-align:left;
+}
+.contact input,textarea{
+   
+}
+.contact input[type="text"],input[type="email"],textarea{
+    height:64px;
+    margin-bottom: 24px;
+    border:none;
+    width:100%;
+    padding:18px 30px;
+}
+.section-description{
+    margin-top:20px;
+    margin-bottom:30px;
 }
